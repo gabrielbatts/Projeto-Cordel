@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{width: 100%;
+margin: auto;
+}
+main{
+    
+}
+header{
+    background-color: black;
+    display: block;
+    
+}
+header>h1{   
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Passion One', cursive;    
+    font-size: 10vw;
+    font-variant: small-caps;
+    
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+    
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header> p > a:hover{
+        font-weight: bold;
+        text-decoration: underline;
+        color: violet;
+}
+
+article {
+    font-family: 'Sriracha', cursive;
+    padding-left: 40px;
+    padding-top: 50px;
+    margin-bottom: 1em;
+    font-size: 3.5vw;
+    line-height: 2em; 
+
+}
+
+
+#ft1{
+    background-image: url("imagens/background001.jpg"); 
+    background-attachment: fixed; 
+    background-size: cover;  
+    box-shadow: 2px 0px 12px inset rgba(0, 0, 0, 0.63);       
+}
+
+#estrofe2{
+    display: inline-block;
+    background-color: rgba(6, 15, 8, 0.507);    
+    color: white;    
+    background-attachment: fixed;
+    padding: 5px;
+    margin-bottom: 50px;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.589);
+}
+.estrofeBranca{
+    padding-top: 2em;
+}
+/* O background-attachment e o size é que estão dando o efeito na imagem */
+#ft2{
+    background-image: url("imagens/background002.jpg");
+    background-attachment: fixed; 
+    background-size: cover;
+    box-shadow: 2px 0px 12px inset rgba(0, 0, 0, 0.63);
+}
+
+#estrofe5{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.37);    
+    color: white;    
+    background-attachment: fixed;
+    padding: 5px;
+    margin-bottom: 50px;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.61);
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;    
+    font-weight: bold;
+}
+
+footer > p > a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: violet;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
